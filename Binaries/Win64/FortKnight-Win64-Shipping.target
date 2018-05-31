@@ -29,6 +29,11 @@
 			"IsPrecompiled": true
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4-ApexDestruction-Win64-Shipping.lib",
+			"Type": "StaticLibrary",
+			"IsPrecompiled": true
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4-Paper2D-Win64-Shipping.lib",
 			"Type": "StaticLibrary",
 			"IsPrecompiled": true
@@ -684,6 +689,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/AssetManagerEditor/AssetManagerEditor.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/ApexDestruction/ApexDestruction.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -1908,6 +1917,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Cooking_x64.pdb",
+			"Type": "DebugNonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Destructible_x64.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Destructible_x64.pdb",
 			"Type": "DebugNonUFS"
 		},
 		{
