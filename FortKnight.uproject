@@ -12,12 +12,12 @@
 	],
 	"Plugins": [
 		{
-			"Name": "GameplayAbilities",
+			"Name": "ApexDestruction",
 			"Enabled": true
 		},
 		{
-			"Name": "ApexDestruction",
-			"Enabled": true
+			"Name": "GameplayTagsEditor",
+			"Enabled": false
 		}
 	]
 }

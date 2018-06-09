@@ -24,11 +24,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Runtime/GameplayAbilities/Binaries/Win64/UE4-GameplayAbilities-Win64-Shipping.lib",
-			"Type": "StaticLibrary",
-			"IsPrecompiled": true
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4-ApexDestruction-Win64-Shipping.lib",
 			"Type": "StaticLibrary",
 			"IsPrecompiled": true
@@ -672,23 +667,16 @@
 			"Path": "$(EngineDir)/Binaries/Win64/UE4-BuildPatchServices-Win64-Shipping.lib",
 			"Type": "StaticLibrary",
 			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/GameplayAbilities/Binaries/Win64/UE4-GameplayAbilities-Win64-Shipping.lib",
+			"Type": "StaticLibrary",
+			"IsPrecompiled": true
 		}
 	],
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/FortKnight.uproject",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/GameplayAbilities/GameplayAbilities.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GameplayTagsEditor/GameplayTagsEditor.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/AssetManagerEditor/AssetManagerEditor.uplugin",
 			"Type": "UFS"
 		},
 		{
